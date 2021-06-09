@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android List</string>
+    <string name="title_internet">Internet Daten</string>
+    <string name="title_localdata">Lokale Daten</string>
+</resources>
