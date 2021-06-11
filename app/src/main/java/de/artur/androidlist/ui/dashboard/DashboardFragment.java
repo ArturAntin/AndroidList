@@ -79,7 +79,7 @@ public class DashboardFragment extends Fragment {
     }
 
     private class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
-        List<Integer> items;
+        private List<Integer> items;
 
         MyAdapter(List<Integer> items) {
             this.items = items;
@@ -112,7 +112,7 @@ public class DashboardFragment extends Fragment {
         }
 
         class ViewHolder extends RecyclerView.ViewHolder{
-            ImageView picture;
+            private ImageView picture;
 
 
             ViewHolder(@NonNull View itemView) {
